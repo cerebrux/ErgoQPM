@@ -1,6 +1,6 @@
 ErgoQPM
 =======
 
-ErgoQPM is a Business Process Management software based on the enterprise collaboration platform, FOSWIKI
+ErgoQPM is a Business Process Management software based on the open source enterprise collaboration platform, FOSWIKI
 
 http://ergoq.gr
