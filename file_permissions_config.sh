@@ -9,6 +9,9 @@
 # details, for your convenience attached below, also 
 # published at http://www.gnu.org/copyleft/gpl.html 
 #
+# Editor: Salih Emin (http://about.me/salihemin)
+# Version: v1.0
+# Compatible: Foswiki >= 1.1.5
 
 echo "All directories have exec bit for recursive reading"
 find . -type d -exec chmod -c 755 {} \;
