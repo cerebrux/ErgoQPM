@@ -10,7 +10,7 @@
 # published at http://www.gnu.org/copyleft/gpl.html 
 #
 # Editor: Salih Emin (http://about.me/salihemin)
-# Version: v1.0
+# Version: v1.1
 # Compatible: Foswiki >= 1.1.5
 
 echo "All directories have exec bit for recursive reading"
@@ -49,6 +49,6 @@ chmod -c 660 working/.htaccess
 
 echo "Restrict security related files should not be world readable."
 find . -name .htaccess -exec chmod 440 {} \;
-chmod -c 640 data/.htpasswd
+#chmod -c 640 data/.htpasswd
 chmod -c 640 lib/LocalSite.cfg
 chmod -c 640 data/mime.types
